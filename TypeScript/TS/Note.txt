@@ -1,0 +1,10 @@
+// Install typescript
+npm i -g typescript
+
+// TO Init typescript Project 
+tsc --init
+update tsconfig.json -> "rootDir": "./src","outDir": "./dist"
+
+// To Convert typescript to JavaScript
+tsc
+tsc --watch
